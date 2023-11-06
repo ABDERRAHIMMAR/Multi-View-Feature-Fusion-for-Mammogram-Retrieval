@@ -6,12 +6,14 @@ This project implements a multi-view feature fusion method based on Canonical Co
 
 The project is organized as follows:
 
-- **RandomForest.m**: This file contains the code for classifying different distances obtained after fusing multi-view features using the Random Forest algorithm.
+- **radom_forest.m**: This file contains the code for classifying different distances obtained after fusing multi-view features using the Random Forest algorithm.
 
-- **Similarity Calculation.m**: This script calculates the similarity between different images in the database and the query image. It uses the fused distances to determine the images most similar to the query image.
+- **calculsimilarite.m**: This script calculates the similarity between different images in the database and the query image. It uses the fused distances to determine the images most similar to the query image.
 
-- **SelectImage.m**: This file is responsible for selecting the query image from the database. It may also include mechanisms to filter images based on certain criteria.
-
+- **select_classe.m**: This file is responsible for selecting the query image from the database. It may also include mechanisms to filter images based on certain criteria.
+- 
+- **ccaFusevv.m**: This file containt de CCA function to fuse features
+- 
 - **"Feature Extraction" Folder**: This folder contains different types of features studied. Each sub-folder may contain specific code to extract these features from mammographic images.
 
 **## How to Use the Code**
