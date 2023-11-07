@@ -27,6 +27,7 @@ The project is organized as follows:
 
 
 **## Dataset Used**
+
 This research utilized the CBIS-DDSM (Curated Breast Imaging Subset of DDSM) database as its primary data source. DDSM is a valuable repository comprising 2,620 scanned film mammography studies, encompassing normal, benign, and malignant cases with verified pathology information. The comprehensive nature of this database, coupled with rigorous ground truth validation, renders DDSM an indispensable tool for the development and testing of decision support systems in mammography.
 
 CBIS-DDSM represents a carefully curated and standardized subset of DDSM data, meticulously selected and processed by trained mammographers. This rigorous curation ensures the quality and consistency of the dataset, providing a robust foundation for our study.
