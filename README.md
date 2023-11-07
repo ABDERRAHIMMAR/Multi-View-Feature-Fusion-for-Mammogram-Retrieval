@@ -24,6 +24,12 @@ The project is organized as follows:
    - Execute **Feature Extraction** to extract features from mammographic images and save them in the corresponding folder within "Feature Extraction."
    - Run **Similarity Calculation.m** to calculate the similarity between the query image and images in the database.
    - Execute **RandomForest.m** to classify the obtained distances and obtain the final search results.
+**## Dataset Used**
+This research utilized the CBIS-DDSM (Curated Breast Imaging Subset of DDSM) database as its primary data source. DDSM is a valuable repository comprising 2,620 scanned film mammography studies, encompassing normal, benign, and malignant cases with verified pathology information. The comprehensive nature of this database, coupled with rigorous ground truth validation, renders DDSM an indispensable tool for the development and testing of decision support systems in mammography.
+
+CBIS-DDSM represents a carefully curated and standardized subset of DDSM data, meticulously selected and processed by trained mammographers. This rigorous curation ensures the quality and consistency of the dataset, providing a robust foundation for our study.
+
+We extend our gratitude to the contributors of CBIS-DDSM and acknowledge the pivotal role this database played in facilitating this research. The dataset can be accessed at the following link: [CBIS-DDSM Dataset](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=22516629).
 
 **## Important Notes**
 
